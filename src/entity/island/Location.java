@@ -178,26 +178,6 @@ public class Location {
     }
 
 
-//    public List<Creature> getAllCreatures() {
-//        List<Creature> allCreatures = new CopyOnWriteArrayList<>();
-//        allCreatures.addAll(wolfesInLocation);
-//        allCreatures.addAll(boaConstrictorsInLocation);
-//        allCreatures.addAll(foxesInLocation);
-//        allCreatures.addAll(bearsInLocation);
-//        allCreatures.addAll(eaglesInLocation);
-//        allCreatures.addAll(horsesInLocation);
-//        allCreatures.addAll(deersInLocation);
-//        allCreatures.addAll(rabbitsInLocation);
-//        allCreatures.addAll(mousesInLocation);
-//        allCreatures.addAll(goatsInLocation);
-//        allCreatures.addAll(wildBoarsInLocation);
-//        allCreatures.addAll(buffalosInLocation);
-//        allCreatures.addAll(ducksInLocation);
-//        allCreatures.addAll(caterpillarsInLocation);
-//        allCreatures.addAll(plantsInLocation);
-//        return allCreatures;
-//    }
-
     public Location getNextLocation(Direction direction, int speed) {
 
         Location[][] locations = this.island.getLocations();
